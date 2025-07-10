@@ -433,7 +433,7 @@ body {
 
 .overlayThreeOne {
     width: 50%;
-    height: 65%;
+    height: fit-content;
     /* background-color: rgb(132, 90, 90); */
     padding: 4vw 0vw;
     padding-left: 10vw;

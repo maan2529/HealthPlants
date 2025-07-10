@@ -592,6 +592,7 @@ footer .second {
     margin-top: 10vh;
     gap: 3vh;
     flex-direction: column;
+    padding-top: 10vh;
 }
 
 footer .second a {
@@ -606,6 +607,7 @@ footer .third {
     margin-top: 10vh;
     gap: 3vh;
     flex-direction: column;
+    padding-top: 10vh;
 }
 
 footer .third a {

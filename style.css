@@ -449,11 +449,13 @@ body {
 .overlayThreeOne p {
     width: 90%;
     padding-bottom: 2vw;
+    font-size: 1.2vw;
 }
 
 .overlayThreeOne a {
     color: rgb(72, 71, 71);
     font-weight: 500;
+    font-size: 1.2vw;
 }
 
 .overlayThreeTwo {

@@ -1,0 +1,614 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100%;
+}
+
+.pageOne {
+    width: 100vw;
+    height: 110vh;
+    /* background-color: rgb(217, 150, 150); */
+    position: relative;
+}
+
+.pageOneImg {
+    width: 60%;
+    height: 90%;
+    background-color: yellow;
+    /* background-image: url(./images/cactus-flowerPlant.png); */
+
+    display: flex;
+    justify-self: end;
+
+}
+
+.pageOneImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    /* transform: scale(0.9); */
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    position: absolute;
+    top: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    gap: 17vw;
+    padding-left: 5vw;
+
+}
+
+.nav .navName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.nav .navName p {
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+.nav .navName i {
+    font-size: 1.4rem;
+}
+
+.nav .navElem {
+
+    /* background-color: red; */
+    width: 25vw;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.nav .navElem a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.down {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.downLeft {
+    width: 15%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+
+.downMiddel {
+    width: 75%;
+    height: 90%;
+    padding-left: 2vw;
+    /* background-color: crimson; */
+}
+
+.downRight {
+    width: 10%;
+    height: 60%;
+    /* background-color: rgb(219, 132, 150); */
+}
+
+.downMiddelUpper {
+    /* background-color: red; */
+    width: 50%;
+    height: 80%;
+    /* coldsncnsd */
+}
+
+.downMiddel .downMiddelUpper h1 {
+    font-size: 5vw;
+}
+
+.downMiddel .downMiddelUpper p {
+    /* font-size: ; */
+    line-height: 25px;
+    margin: 2vw 0 3.3vw;
+    width: 80%;
+
+}
+
+.downMiddel .downMiddelUpper button {
+    /* font-size: ; */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.downMiddel .downMiddelUpper button:active {
+    transform: scale(0.9);
+
+
+}
+
+.downLeft .downLeftUpper {
+
+    /* background-color: red; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.downLeft .downLeftLower {
+
+    /* background-color: red; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.downLeft .downLeftLower .lineOne {
+
+    width: 3px;
+    height: 80%;
+    background-color: rgba(179, 175, 175, 0.648);
+
+}
+
+.downLeft .downLeftUpper p {
+    transform: rotate(-90deg);
+    font-size: 0.8rem;
+    /* display: flex;
+    gap: 12vw; */
+}
+
+.downMiddel .downMiddelLower {
+    width: 100%;
+    height: 20%;
+    /* background-color: cadetblue; */
+}
+
+.downMiddelLower {
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+}
+
+
+.mediaIcon {
+    width: 31%;
+    display: flex;
+    gap: 15px;
+    /* background-color: yellow; */
+}
+
+.downMiddelLower .downLine {
+    width: 61%;
+    /* background-color: red; */
+}
+
+.downLine {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 50px;
+    /* background-color: red; */
+}
+
+.downLine .lineTwo {
+    width: 80%;
+    height: 3px;
+    background-color: rgb(207, 199, 199);
+}
+
+.downLine .lineNum {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.downRight {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+
+}
+
+.rightArrow {
+    font-size: 25px;
+}
+
+.pageTwo {
+    width: 100vw;
+    height: 70vh;
+    /* background-color: red; */
+    padding: 5% 0 5%;
+    position: relative;
+}
+
+.pageTwoImg {
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    background-image: url(images/leaf.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlayTwo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    /* background-color: rgb(209, 209, 190); */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.overlayContainer {
+    background-color: white;
+    width: 65%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-self: flex-end;
+    padding: 4%;
+}
+
+.overlayContainer h3 {
+    width: 30%;
+}
+
+.overlayContainer p {
+    width: 40%;
+    padding: 0.5vw 0 1vw;
+    color: rgb(118, 116, 116);
+}
+
+.overlayContainer a {
+    color: black;
+}
+
+.partOne {}
+
+.pageThree {
+    width: 100vw;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    padding: 3% 0 3%;
+
+}
+
+.pageThree .threePartOne {
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(145, 119, 119); */
+}
+
+.pageThree .threePartTwo {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(150, 50, 50);
+    background-image: url('https://media.istockphoto.com/id/865709066/photo/google-pins-on-a-world-map.jpg?s=1024x1024&w=is&k=20&c=fixGQCg8Mm7lrvMcMJNSMP6hSogQBDgRLsulF5mS8lQ=');
+    background-position: center;
+    background-size: cover;
+}
+
+.threePartOne {
+    padding-left: 10%;
+    margin-top: 2%;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.threePartOne .contactThree {
+    color: rgb(171, 169, 169);
+    font-size: 1.1rem;
+}
+
+.threePartOne h2 {
+    font-weight: 700;
+    width: 50%;
+    /* background-color: red; */
+    padding: 10px 0;
+}
+
+.threePartOne .visit {
+    font-weight: 700;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+}
+
+.threePartOne .visit p {
+    color: rgb(148, 146, 146);
+    width: 40%;
+    font-weight: 400;
+}
+
+.threePartOne .email {
+    font-weight: 700;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    /* margin-top: 10px; */
+}
+
+.threePartOne .email p {
+    color: rgb(148, 146, 146);
+    width: 40%;
+    font-weight: 400;
+}
+
+.threePartOne .phone {
+    font-weight: 700;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    /* margin-top: 10px; */
+}
+
+.threePartOne .phone p {
+    color: rgb(148, 146, 146);
+    width: 40%;
+    font-weight: 400;
+
+}
+
+.threePartOne button {
+    padding: 7px 22px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.pageFour {
+    /* background-color: red; */
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10%;
+    position: relative;
+}
+
+.pageFourImg {
+    width: 70%;
+    height: 80%;
+    /* background-color: pink; */
+    background-image: url(images/flower-bloom-pink-stem-preview.jpg);
+    background-position: top;
+    background-size: cover;
+
+}
+
+.overlayThree {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    /* background-color: rgba(104, 104, 248, 0.549); */
+    display: flex;
+
+}
+
+.overlayThreeOne {
+    width: 50%;
+    height: 65%;
+    /* background-color: rgb(132, 90, 90); */
+    padding: 4vw 0vw;
+    padding-left: 10vw;
+    background-color: white;
+}
+
+
+
+.overlayThreeOne h3 {
+    width: 60%;
+}
+
+.overlayThreeOne p {
+    width: 90%;
+    padding-bottom: 2vw;
+}
+
+.overlayThreeOne a {
+    color: rgb(72, 71, 71);
+    font-weight: 500;
+}
+
+.overlayThreeTwo {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(236, 229, 329); */
+}
+
+.overlayThreeTwo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.overlayThreeTwo div {
+    padding: 20px 35px 0 35px;
+    background-color: white;
+    font-weight: 700;
+}
+
+
+.pageFive {
+    width: 100vw;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgFive {
+    width: 30%;
+    height: 70%;
+    /* background-color: rgb(203, 217, 99); */
+    background-image: url(images/plant-glass-bottle-hand-holding.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    width: 50%;
+    height: 60%;
+    /* background-color: rgb(232, 239, 174); */
+    display: flex;
+    color: rgb(139, 138, 138);
+}
+
+.info .infoOne {
+    width: 50%;
+    height: 80%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+
+}
+
+.info .infoOne h3 {
+    width: 60%;
+    color: black;
+    font-size: 1.5vw;
+    /* background-color: red; */
+
+}
+
+.info .infoOne p {
+    width: 60%;
+    font-size: 1vw;
+    /* background-color: red; */
+
+}
+
+.info .infoTwo {
+    width: 50%;
+    height: 70%;
+    /* background-color: rgb(195, 195, 141); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+
+}
+
+.info .infoTwo p {
+    width: 60%;
+    font-size: 1vw;
+    color: rgb(139, 138, 138);
+    /* background-color: red; */
+
+}
+
+footer {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+footer .first {
+    height: 100%;
+    width: 100%;
+    padding: 10vh;
+}
+
+footer .first h3 {
+    font-size: large;
+}
+
+footer .first input {
+    padding: 0.5vh 2vw;
+    background-color: black;
+    color: white;
+}
+
+footer .first button {
+    padding: 2vh 2vw;
+
+    color: black;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 30vh;
+    margin-top: 2vh;
+}
+
+footer .second {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 10vh;
+    gap: 3vh;
+    flex-direction: column;
+}
+
+footer .second a {
+    text-decoration: none;
+    color: white
+}
+
+footer .third {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 10vh;
+    gap: 3vh;
+    flex-direction: column;
+}
+
+footer .third a {
+    text-decoration: none;
+    color: white
+}
